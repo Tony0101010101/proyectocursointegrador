@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f0f0f0; /* Cambia el color de fondo si es necesario */
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #5e151e;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 24px;
+  text-align: left;
+  margin-left: 20px; /* Cambia margin-left en lugar de margin-right para separar los botones */
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-container a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: rgb(128, 0, 0); /* Cambia el color de fondo de los botones si es necesario */
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.header-container a:hover {
+  background-color: rgb(255, 0, 0); /* Cambia el color de fondo al pasar el mouse sobre los botones */
+}
+
+/* Estilos para el contenido de bienvenida */
+.welcome-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome-container h2 {
+  font-size: 36px; /* Aumenta el tamaño del texto del cuerpo */
+  margin: 20px 0;
+  font-weight: bold; /* Agrega negritas al texto */
+  color: #333; /* Cambia el color del texto */
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #5e151e;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-container a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Estilos para el cuerpo y la imagen */
+.image-container {
+  text-align: center;
+  position: relative;
+}
+
+.image-container img {
+  max-width: 100%;
+}
+
+/* Estilos para la imagen y superposición de texto */
+.image-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.text-overlay {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+}

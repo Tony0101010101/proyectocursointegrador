@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5e151e;
+    font-family: sans-serif;
+}
+
+.login_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.login_box h2 {
+    color: #5e151e;
+    font-size: 24px;
+}
+
+.login_box form {
+    margin: 0;
+    padding: 0;
+}
+
+.login_box p {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.login_box input[type="text"],
+.login_box input[type="email"],
+.login_box input[type="password"] {
+    width: 100%; /* Cambia el ancho al 100% para que se ajuste al contenedor */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login_box input[type="submit"] {
+    width: 100%;
+    background-color: #2b2b2b;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px; /* Aumenta el margen superior para separar el botón */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login_box input[type="submit"]:hover {
+    background-color: #4e4e4e;
+}
+
+.login_box p a {
+    color: #5e151e;
+    text-decoration: none;
+    font-weight: bold;
+}
