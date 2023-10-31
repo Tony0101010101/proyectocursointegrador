@@ -7,6 +7,7 @@ import javax.naming.InitialContext;
 import javax.sql.DataSource;
 /*prueba*/
 /*Edicion*/
+/*Prueba exposición*/
 public class DAO {
 	public Connection crearCnx() {
 		Connection con = null;
