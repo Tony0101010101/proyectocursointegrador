@@ -6,6 +6,7 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
+/*Edicion*/
 public class DAO {
 	public Connection crearCnx() {
 		Connection con = null;
