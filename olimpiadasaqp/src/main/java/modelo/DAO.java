@@ -7,7 +7,7 @@ import javax.naming.InitialContext;
 import javax.sql.DataSource;
 
 
-/*Reparacion*/
+/*Reparacion y mantenimiento*/
 *system*
 public class DAO {
 	public Connection crearCnx() {
